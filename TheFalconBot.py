@@ -1,10 +1,10 @@
 import telebot
 import requests
-import os
+# import os
 from pytube import YouTube 
 import youtube_dl
 
-API_KEY = "5393406378:AAF9l-Z2KVEOcnnjfM0y_VWPy9xZFoHOO68"
+API_KEY = "Keep your Bot Token here!!!!"
 
 bot = telebot.TeleBot(API_KEY)
 
@@ -114,6 +114,7 @@ def Advice(message):
 https://pagalworld.com.se/mehbooba-mp3-song-download.html
 https://pagalworld.com.se/mahbooba-mp3-song-download.html
 '''
+
 # @bot.message_handler(commands=['ytd'])
 # def ytvid(message):
 #     link = message.text
